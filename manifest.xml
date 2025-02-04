@@ -9,12 +9,13 @@
 <DisplayName>Clause Library Add-in</DisplayName> 
 <Description>Insert pre-defined legal clauses into Word documents.</Description> 
 <IconUrl DefaultValue="https://www.example.com/icon.png" /> <SupportUrl DefaultValue="https://www.example.com/support" /> 
-<AppDomains> 
-    <AppDomain>https://localhost:3000</AppDomain> 
-</AppDomains> 
+<WebApplicationInfo> 
+    <AppDomain>https://ahazelbrook.github.io</AppDomain>
+    <Resource>api:https://ahazelbrook.github.io/ClauseLibrary/</Resource>
+</WebApplicationInfo> 
 <Hosts> 
     <Host Name="Document" /> 
 </Hosts> 
 <DefaultSettings> 
-    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html" /> </DefaultSettings> 
+    <SourceLocation DefaultValue="taskpane.html" /> </DefaultSettings> 
 </OfficeApp>
